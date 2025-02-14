@@ -11,7 +11,6 @@ type InputProps = {
 const Input: React.FC<InputProps> = ({
   type,
   placeholder,
-  
   name,
   handleChange,
 }) => {
@@ -19,7 +18,7 @@ const Input: React.FC<InputProps> = ({
     <input
       type={type}
       placeholder={placeholder}
-      className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
+      className="w-full my-2 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
       name={name}
       onChange={handleChange}
     />
